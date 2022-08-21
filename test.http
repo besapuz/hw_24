@@ -1,0 +1,12 @@
+POST http://127.0.0.1:5000/perform_query
+Content-Type: application/json
+
+{
+    "cmd1": "sort",
+    "cmd2": "regex",
+    "value1": "asc",
+    "value2": "images/\\w+\\.png",
+    "filename": "apache_logs.txt"
+}
+
+###
